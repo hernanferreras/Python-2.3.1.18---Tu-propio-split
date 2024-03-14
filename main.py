@@ -4,6 +4,7 @@ def mysplit(strng):
     #
     new = []
     word=''
+    strng = strng.strip()
     
     if strng.isspace():
         return new
